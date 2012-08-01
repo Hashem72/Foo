@@ -30,6 +30,12 @@ int main(int argc, char *argv[]) {
   
   bool change_score = true;
   
+  if(argc < 2){
+    cerr<< "the code expects you to pass two arguments: one a bed file that contains biasness scores and the other one name 
+of ouput file!"<<endl;
+    exit(0);
+  }
+
   ifstream fin(argv[1]);
   if (! fin.good())
     {
