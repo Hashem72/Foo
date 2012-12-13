@@ -5,7 +5,7 @@
 #include <iomanip>
 
 
-/*Note: bed files with biasness scores are build from six columns: chr, start, end, name, score and strand. The idea here is to add ninth colum that includes RGB color codes based on scores then Dalliance can display features colorfully. note that columns 7 and 8 are just dummy*/
+/*Note:  bed files with biasness scores are build from six columns: chr, start, end, name, score and strand. The idea here is to add ninth colum that includes RGB color codes based on scores then Dalliance can display features colorfully. note that columns 7 and 8 are just dummy*/
 
 using namespace std;
 
